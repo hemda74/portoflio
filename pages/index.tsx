@@ -57,10 +57,10 @@ const Home: NextPage = () => {
       {/* About */}
       <div className="mt-4 flex flex-col">
         <h3 className="mb-2 w-fit text-xl font-bold text-black after:float-left after:h-1 after:w-full after:rounded-sm after:bg-gray-700 dark:text-white after:dark:bg-zinc-500">
-          About
+          About Me 
         </h3>
         <p className="text-justify tracking-wide dark:text-white">
-        Innovative FullStack Developer with over 1 year of experience building and maintaining responsive websites and web applications. Proficient in HTML, CSS, JavaScript, JQuery, Bootstrap, React.js, Next.js, Redux, Restful API, and ASP.Net; plus modern libraries and frameworks. Passionate about usability and possess working knowledge of Adobe XD & Figma.
+        Innovative FullStack Developer with over 1 year of experience building and maintaining responsive websites and web applications. Proficient in HTML, CSS, JavaScript, TypeScript, JQuery, Bootstrap, React.js, Next.js, Redux, Restful API, and .Net Core, EntityFrameWork and MS Sql Server  ; plus modern libraries and frameworks. Passionate about usability and possess working knowledge of Adobe XD & Figma.
         </p>
       </div>
       {/* Bio */}

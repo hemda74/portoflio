@@ -116,7 +116,7 @@ const Home: NextPage = () => {
           <MediaLink
             icon={(props) => <FaLinkedin />}
             text="@keisuke-hara"
-            mediaLink="https://www.linkedin.com/in/keisuke-hara/"
+            mediaLink="https://www.linkedin.com/in/ahmed-hemdan-695408201/"
           />
           <MediaLink
             icon={(props) => <FaGithub />}

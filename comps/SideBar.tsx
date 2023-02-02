@@ -94,7 +94,7 @@ const SideBar = () => {
           />
         </a>
       </Link>
-      <a href="https://github.com/KeiHara/nextjs-portofolio" target="_blank" rel="noreferrer">
+      <a href="https://github.com/hemda74" target="_blank" rel="noreferrer">
         <SideBarIcon
           icon={() => <FaGithub size={28} />}
           toggled={toggledSideBarIcon[3]}

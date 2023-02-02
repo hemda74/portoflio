@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import profile from '../public/profile_pic.jpg';
-import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { IconType } from 'react-icons/lib';
 import { createElement } from 'react';
 import Head from 'next/head';
@@ -70,9 +70,9 @@ const Home: NextPage = () => {
         </h3>
         <div className="grid grid-cols-[1fr_3fr] gap-4">
   
-          <div className="w-fit font-bold dark:text-white">2018</div>
+          <div className="w-fit font-bold dark:text-white">2018-2022</div>
           <p className="dark:text-white">
-              Started studying Computer Science at Ain Shams University 
+               Studying Computer Science at Ain Shams University 
           </p>
           <div className="w-fit font-bold dark:text-white">Dec 2021 to present</div>
           <p className="dark:text-white">
@@ -105,7 +105,7 @@ const Home: NextPage = () => {
         <h3 className="mb-2 w-fit text-xl font-bold after:float-left after:h-1 after:w-full after:rounded-sm after:bg-gray-700 dark:text-white after:dark:bg-zinc-500">
           I ❤️
         </h3>
-        <p className="dark:text-white">Game, music, piano, UI/UX</p>
+        <p className="dark:text-white">Football, Music, Problem Solving</p>
       </div>
       {/* Social media */}
       <div className="mt-4 flex flex-col">
@@ -115,7 +115,7 @@ const Home: NextPage = () => {
         <div className="flex flex-col">
           <MediaLink
             icon={(props) => <FaLinkedin />}
-            text="@keisuke-hara"
+            text="@Ahmed-Hemdan"
             mediaLink="https://www.linkedin.com/in/ahmed-hemdan-695408201/"
           />
           <MediaLink
@@ -124,9 +124,9 @@ const Home: NextPage = () => {
             mediaLink="https://github.com/hemda74"
           />
           <MediaLink
-            icon={(props) => <FaInstagram />}
-            text="@kei.9241"
-            mediaLink="https://www.instagram.com/kei.9241/"
+            icon={(props) => <FaFacebook />}
+            text="@Ahmed A.Hemdan"
+            mediaLink="https://www.facebook.com/profile.php?id=100009361588650"
           />
         </div>
       </div>

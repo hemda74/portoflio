@@ -1,0 +1,48 @@
+[
+  {
+    "imgSrcs": [
+      "work_imgs/headstrong1.png",
+      "work_imgs/headstrong2.png",
+      "work_imgs/headstrong3.png"
+    ],
+    "href": "https://play.google.com/store/apps/details?id=nz.co.uniservices.habitsmessenger",
+    "imgSrc": "",
+    "title": "Headstrong",
+    "description": "Chatbot application tracks the user's mental health which can be monitored on the Habits platform."
+  },
+  {
+    "href": "https://survey-dot-ida-project-354300.ts.r.appspot.com/",
+    "imgSrcs": [
+      "work_imgs/ida1.png",
+      "work_imgs/ida2.png",
+      "work_imgs/ida3.png"
+    ],
+    "imgSrc": "work_imgs/ida.png",
+    "title": "IDA",
+    "description": "A mobile app being developed to help improve diagnostic accuracy amongst medical doctors."
+  },
+  {
+    "href": "https://habits.school/",
+    "imgSrc": "work_imgs/habits.png",
+    "title": "Habits",
+    "description": "A web application that tracks the participant's mental health and engagement (Government-funded research)."
+  },
+  {
+    "href": "https://devs.org.nz",
+    "imgSrc": "work_imgs/devs.png",
+    "title": "Devs",
+    "description": "An Website for the University of Auckland's biggest Software Development Club."
+  },
+  {
+    "href": "https://www.tekaha.co.nz/",
+    "imgSrc": "work_imgs/tekaha.png",
+    "title": "Tekaha",
+    "description": "A platform for the Tekaha community to connect and socialize."
+  },
+  {
+    "href": "https://taskerr-c3026.web.app/",
+    "imgSrc": "work_imgs/taskerr.png",
+    "title": "Taskerr",
+    "description": "Task tracking platform aiming to solve the problem of procrastination."
+  }
+]

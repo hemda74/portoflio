@@ -3,13 +3,13 @@
     "href": "https://ornate-sawine-7de9a4.netlify.app/",
     "imgSrc": "work_imgs/autism.png",
     "title": "Autism Detection",
-    "description": "A web Application that Uses DNN Models To Detect and Predict Autism in children with f-MRI dataset from ABIDE using JavaScript, BootStrap, Wow.Js, jQuery, HTML5&CSS3, Python , DNN(preprocessing of mri scans using CPAC, Autoencoders,MLP And Classification), 2D images's Augmantion,CNN(Feature Selection, MobileNet And Classification)."
+    "description": "A web Application that Uses DNN Models To Detect and Predict Autism in children with f-MRI dataset from ABIDE using JavaScript, BootStrap, Wow.Js, jQuery, HTML5&CSS3, Python,Flask, DNN(preprocessing of mri scans using CPAC, Autoencoders,MLP And Classification), 2D images's Augmantion,CNN(Feature Selection, MobileNet And Classification)."
   },
   {
     "href": "https://book-review-front-fl66w2ql1-hemda74.vercel.app/",
     "imgSrc": "work_imgs/book-review-app.png",
     "title": "Book Review App",
-    "description": "A Web Application to review books and display Book info, Author info, Category info, and country info and make a review or update the data of book or author or category Using React.js, Next.js, TypeScript, Bootstrap, .NetCore Web Api , EntityFrameWork, MS SQL Server."
+    "description": "A Web Application to review books and display Book info, Author info, Category info, and country info and make a review or update the data of book or author or category Using React.js, Next.js, TypeScript, Bootstrap, .NetCore Web Api, EntityFrameWork, MS SQL Server,C#."
   },
   {
     "href": "https://habits.school/",

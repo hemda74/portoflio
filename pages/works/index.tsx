@@ -27,7 +27,6 @@ const Works = () => {
             <WorkCard
               key={i}
               href={work.href}
-              imgSrcs={work.imgSrcs}
               imgSrc={work.imgSrc}
               title={work.title}
               description={work.description}

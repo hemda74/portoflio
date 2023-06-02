@@ -27,7 +27,7 @@ const Home: NextPage = () => {
         <div>
           <h1 className="text-4xl font-bold  dark:text-white">Ahmed Hemdan</h1>
           <p className="dark:text-white">
-            FullStack Web Devoloper
+            Software Engineer
           </p>
         </div>
         {/* prof pic */}
@@ -60,7 +60,7 @@ const Home: NextPage = () => {
           About Me 
         </h3>
         <p className="text-justify tracking-wide dark:text-white">
-        Innovative FullStack Developer with over 2 years of experience building and maintaining responsive websites and web applications. Proficient in HTML, CSS, JavaScript, TypeScript, JQuery, Bootstrap, React.js, Next.js, Redux, Restful API, .Net Core, Entity Framework, and MS SQL Server; plus modern libraries and frameworks. Passionate about usability and possess working knowledge of Adobe XD & Figma.        </p>
+        Innovative Software Engineer with over 2 years of experience building and maintaining responsive websites and web applications. Proficient in HTML, CSS, JavaScript, TypeScript, JQuery, Bootstrap, React.js, Next.js, Redux, Restful API, .Net Core, Entity Framework, and MS SQL Server; plus modern libraries and frameworks. Passionate about usability and possess working knowledge of Adobe XD & Figma.        </p>
       </div>
       {/* Bio */}
       <div className="mt-4 flex flex-col">

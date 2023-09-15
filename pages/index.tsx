@@ -60,7 +60,7 @@ const Home: NextPage = () => {
           About Me 
         </h3>
         <p className="text-justify tracking-wide dark:text-white">
-        Innovative Software Engineer with over 2 years of experience building and maintaining responsive websites and web applications. Proficient in HTML, CSS, JavaScript, TypeScript, JQuery, Bootstrap, React.js, Next.js, Redux, Restful API, C#, .Net Core, Entity Framework, and MS SQL Server</p>
+        Innovative Front-End Developer with over 2 years of experience building and maintaining responsive websites and web applications. Proficient in HTML, CSS, JavaScript, TypeScript, JQuery, Bootstrap, tailwindcss, React.js, Next.js and Redux</p>
       </div>
       {/* Bio */}
       <div className="mt-4 flex flex-col">

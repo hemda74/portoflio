@@ -27,7 +27,7 @@ const Home: NextPage = () => {
         <div>
           <h1 className="text-4xl font-bold  dark:text-white">Ahmed Hemdan</h1>
           <p className="dark:text-white">
-            Software Engineer
+           Front-End Developer
           </p>
         </div>
         {/* prof pic */}

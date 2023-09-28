@@ -108,7 +108,7 @@ const Home: NextPage = () => {
             <a
               draggable={false}
               className="hover:text-sky500 inline-block origin-bottom-right indent-0 text-sky-700 duration-200 ease-linear after:float-left after:h-0.5 after:w-full after:origin-center after:scale-0 after:rounded-sm after:bg-sky-700 after:duration-200 hover:text-sky-600 hover:after:scale-100  hover:after:bg-sky-600 dark:text-teal-300 after:dark:bg-teal-300 hover:dark:text-teal-200 hover:after:dark:bg-teal-200"
-              href="https://casco.com.eg//"
+              href="https://cascotec.com/"
               target="_blank"
               rel="noreferrer">
               CASCO

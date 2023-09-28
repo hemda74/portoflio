@@ -16,8 +16,7 @@ const Home: NextPage = () => {
         enter: { opacity: 1, x: 0, y: 0 },
       }}
       initial="hidden"
-      animate="enter"
-      >
+      animate="enter">
       <Head>
         <title>Ahmed Hemdan | About me</title>
       </Head>
@@ -26,9 +25,7 @@ const Home: NextPage = () => {
       <div className="flex justify-between pt-4">
         <div>
           <h1 className="text-4xl font-bold  dark:text-white">Ahmed Hemdan</h1>
-          <p className="dark:text-white">
-           Front-End Developer
-          </p>
+          <p className="dark:text-white">Web Developer</p>
         </div>
         {/* prof pic */}
         <div className="flex h-fit w-24 overflow-hidden rounded-full border-2">
@@ -57,10 +54,14 @@ const Home: NextPage = () => {
       {/* About */}
       <div className="mt-4 flex flex-col">
         <h3 className="mb-2 w-fit text-xl font-bold text-black after:float-left after:h-1 after:w-full after:rounded-sm after:bg-gray-700 dark:text-white after:dark:bg-zinc-500">
-          About Me 
+          About Me
         </h3>
         <p className="text-justify tracking-wide dark:text-white">
-        Innovative Front-End Developer with over 2 years of experience building and maintaining responsive websites and web applications. Proficient in HTML, CSS, JavaScript, TypeScript, JQuery, Bootstrap, tailwindcss, React.js, Next.js and Redux</p>
+          Innovative Web Developer with over 2 years of experience building and
+          maintaining responsive websites and web applications. Proficient in
+          HTML, CSS, JavaScript, TypeScript, JQuery, Bootstrap, tailwindcss,
+          React.js, Next.js and Redux
+        </p>
       </div>
       {/* Bio */}
       <div className="mt-4 flex flex-col">
@@ -68,12 +69,13 @@ const Home: NextPage = () => {
           Bio
         </h3>
         <div className="grid grid-cols-[1fr_3fr] gap-4">
-  
           <div className="w-fit font-bold dark:text-white">2018-2022</div>
           <p className="dark:text-white">
-               Studying Computer Science at Ain Shams University 
+            Studying Computer Science at Ain Shams University
           </p>
-          <div className="w-fit font-bold dark:text-white">Dec 2021 to Sep 2023</div>
+          <div className="w-fit font-bold dark:text-white">
+            Dec 2021 to Sep 2023
+          </div>
           <p className="dark:text-white">
             Working as a Software Engineer at{' '}
             <a
@@ -85,9 +87,12 @@ const Home: NextPage = () => {
               U1st Services & Soluations
             </a>
           </p>
-          <div className="w-fit font-bold dark:text-white">Nov 2022 to Jan 2023</div>
+
+          <div className="w-fit font-bold dark:text-white">
+            Nov 2022 to Jan 2023
+          </div>
           <p className="dark:text-white">
-            Working as a Freelancer FrontEnd Engineer at{' '}
+            Working as a Freelancer Web Engineer at{' '}
             <a
               draggable={false}
               className="hover:text-sky500 inline-block origin-bottom-right indent-0 text-sky-700 duration-200 ease-linear after:float-left after:h-0.5 after:w-full after:origin-center after:scale-0 after:rounded-sm after:bg-sky-700 after:duration-200 hover:text-sky-600 hover:after:scale-100  hover:after:bg-sky-600 dark:text-teal-300 after:dark:bg-teal-300 hover:dark:text-teal-200 hover:after:dark:bg-teal-200"
@@ -97,20 +102,32 @@ const Home: NextPage = () => {
               It-Ranks Technology
             </a>
           </p>
-      <div className="w-fit font-bold dark:text-white">Feb 2023 to Sep 2023</div>
+          <div className="w-fit font-bold dark:text-white">Feb 2023 to Now</div>
           <p className="dark:text-white">
-            Working as a Frrancer Front-End Developer at{' '}
+            Working as a Frrancer Web Developer at{' '}
             <a
               draggable={false}
               className="hover:text-sky500 inline-block origin-bottom-right indent-0 text-sky-700 duration-200 ease-linear after:float-left after:h-0.5 after:w-full after:origin-center after:scale-0 after:rounded-sm after:bg-sky-700 after:duration-200 hover:text-sky-600 hover:after:scale-100  hover:after:bg-sky-600 dark:text-teal-300 after:dark:bg-teal-300 hover:dark:text-teal-200 hover:after:dark:bg-teal-200"
               href="https://casco.com.eg//"
               target="_blank"
               rel="noreferrer">
-                CASCO
+              CASCO
             </a>
           </p>
-          </div>
-          </div>
+          <div className="w-fit font-bold dark:text-white">Sep 2023 to Now</div>
+          <p className="dark:text-white">
+            Working as a Frrancer Web Developer at{' '}
+            <a
+              draggable={false}
+              className="hover:text-sky500 inline-block origin-bottom-right indent-0 text-sky-700 duration-200 ease-linear after:float-left after:h-0.5 after:w-full after:origin-center after:scale-0 after:rounded-sm after:bg-sky-700 after:duration-200 hover:text-sky-600 hover:after:scale-100  hover:after:bg-sky-600 dark:text-teal-300 after:dark:bg-teal-300 hover:dark:text-teal-200 hover:after:dark:bg-teal-200"
+              href="https://www.facebook.com/TheWhiteHouse.RoyalState"
+              target="_blank"
+              rel="noreferrer">
+              TWH Royal State
+            </a>
+          </p>
+        </div>
+      </div>
       {/* Hobbies */}
       <div className="mt-4 flex flex-col">
         <h3 className="mb-2 w-fit text-xl font-bold after:float-left after:h-1 after:w-full after:rounded-sm after:bg-gray-700 dark:text-white after:dark:bg-zinc-500">
@@ -153,7 +170,7 @@ interface mediaLinkProps {
 
 const MediaLink = ({ icon, mediaLink, text }: mediaLinkProps) => (
   <a
-  draggable={false}
+    draggable={false}
     target="_blank"
     href={mediaLink}
     className="group flex w-fit items-center rounded-md py-2 px-3 duration-200 ease-linear hover:bg-sky-200 hover:bg-opacity-60 dark:hover:bg-teal-200 dark:hover:bg-opacity-20"

@@ -102,7 +102,9 @@ const Home: NextPage = () => {
               It-Ranks Technology
             </a>
           </p>
-          <div className="w-fit font-bold dark:text-white">Feb 2023 to Now</div>
+          <div className="w-fit font-bold dark:text-white">
+            Feb 2023 to June 2023
+          </div>
           <p className="dark:text-white">
             Working as a Freelancer Web Developer at{' '}
             <a
@@ -114,7 +116,7 @@ const Home: NextPage = () => {
               CASCO
             </a>
           </p>
-          <div className="w-fit font-bold dark:text-white">Sep 2023 to Now</div>
+          {/* <div className="w-fit font-bold dark:text-white">Sep 2023 to Now</div>
           <p className="dark:text-white">
             Working as a Freelancer Web Developer at{' '}
             <a
@@ -125,7 +127,7 @@ const Home: NextPage = () => {
               rel="noreferrer">
               TWH Royal State
             </a>
-          </p>
+          </p> */}
         </div>
       </div>
       {/* Hobbies */}

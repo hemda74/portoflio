@@ -12,6 +12,12 @@
     "description": "A web Application that Uses DNN Models To Detect and Predict Autism in children with f-MRI dataset from ABIDE using JavaScript, BootStrap, Wow.Js, jQuery, HTML5&CSS3, Python,Flask, DNN(preprocessing of mri scans using CPAC, Autoencoders,MLP And Classification), 2D images's Augmantion,CNN(Feature Selection, MobileNet And Classification)."
   },
   {
+    "href": "https://ecommerce-frontend-hemdan.vercel.app/",
+    "imgSrc": "work_imgs/ecommerce.png",
+    "title": "Store Front Ecommerce App",
+    "description": "An Ecommerce Frontend Web Application With Nextjs + Reactjs."
+  },
+  {
     "href": "https://book-review-front-fl66w2ql1-hemda74.vercel.app/",
     "imgSrc": "work_imgs/book-review-app.png",
     "title": "Book Review App",
